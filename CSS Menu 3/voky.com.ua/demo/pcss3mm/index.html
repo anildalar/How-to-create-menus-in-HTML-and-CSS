@@ -1,0 +1,1005 @@
+<!DOCTYPE html> 
+<html>
+	
+<!-- Mirrored from voky.com.ua/demo/pcss3mm/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Aug 2021 13:18:52 GMT -->
+<head>
+		<title>Pure CSS3 Mega Menu</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/pcss3mm.css">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">		
+		<!--[if lt IE 10]>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+			<script src="js/jquery.placeholder.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<img src="img/bg.jpg" alt="" class="bg">
+		<div class="page">
+			<h1>Pure CSS3 <strong>Mega Menu</strong></h1>
+			
+			<!-- mega menu -->
+			<ul id="pcss3mm" class="pcss3mm">
+				<!-- home -->
+				<li>
+					<a href="#"><i class="icon-home"></i>Home</a>
+				</li>
+				<!--/ home -->
+				
+				<!-- about -->
+				<li class="dropdown">
+					<a href="#" class="active"><i class="icon-star"></i>About</a><b></b>
+					<div class="grid-container3">
+						<ul>
+							<li class="dropdown">
+								<a href="#" class="active"><i class="icon-bullhorn"></i>News</a>
+								<div class="grid-container3">
+									<ul>
+										<li><a href="#"><i class="icon-ok"></i>Company</a></li>
+										<li><a href="#"><i class="icon-ok"></i>Products</a></li>
+										<li><a href="#"><i class="icon-ok"></i>Specials</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#"><i class="icon-globe"></i>Mission</a></li>
+							<li class="dropdown">
+								<a href="#"><i class="icon-group"></i><b></b>Our Team</a>
+								<div class="grid-container3">
+									<ul>
+										<li class="dropdown">
+											<a href="#">Markus Fisher</a>
+											<div class="grid-container3">
+												<ul>
+													<li><a href="#">About</a></li>
+													<li><a href="#">Skills</a></li>
+													<li><a href="#">Contacts</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="dropdown">
+											<a href="#">Leyla Sparks</a>
+											<div class="grid-container3">
+												<ul>
+													<li><a href="#">About</a></li>
+													<li><a href="#">Skills</a></li>
+													<li><a href="#">Contacts</a></li>
+												</ul>
+											</div>
+										</li>
+										<li><a href="#">Gleb Ismailov</a></li>
+										<li><a href="#">Viktoria Gibbers</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#"><i class="icon-trophy"></i>Rewards</a></a></li>
+							<li><a href="#"><i class="icon-certificate"></i>Certificates</a></a></li>
+						</ul>
+					</div>
+				</li>
+				<!--/ about -->
+				
+				<!-- portfolio -->
+				<li class="dropdown">
+					<a href="#"><i class="icon-briefcase"></i>Portfolio</a><b></b>
+					<div class="grid-container3">
+						<ul>
+							<li><a href="#"><i class="icon-lemon"></i>Logos</a></li>
+							<li><a href="#"><i class="icon-globe"></i>Websites</a></li>
+							<li><a href="#"><i class="icon-th-large"></i>Branding</a></li>
+							<li><a href="#"><i class="icon-picture"></i>Illustrations</a></li>
+						</ul>
+					</div>
+				</li>
+				<!--/ portfolio -->
+				
+				<!-- contacts -->
+				<li>
+					<a href="#"><i class="icon-phone"></i>Contacts</a><b></b>
+				</li>
+				<!--/ contacts -->
+				
+				<!-- share -->
+				<li class="right dropdown">
+					<a href="#"><i class="icon-bullhorn"></i>Share</a><b></b>
+					<div class="grid-container3">
+						<ul>
+							<li><a href="#"><i class="icon-twitter"></i>Twitter</a></li>
+							<li><a href="#"><i class="icon-facebook-sign"></i>Facebook</a></li>
+							<li><a href="#"><i class="icon-pinterest"></i>Pinterest</a></li>
+							<li><a href="#"><i class="icon-envelope-alt"></i>Email</a></a></li>
+						</ul>
+					</div>
+				</li>
+				<!--/ share -->
+				
+				<!-- pin or unpin -->
+				<li class="right">
+					<a href="#" onclick="getElementById('pcss3mm').className = (getElementById('pcss3mm').className == 'pcss3mm' ? 'pcss3mm pcss3mm-fixed' : 'pcss3mm'); return false;"><i class="icon-pushpin"></i>Pin/Unpin</a>
+				</li>
+				<!--/ pin or unpin -->
+			</ul>
+			<!-- mega menu -->
+			<h2>Overview and features</h2>
+			<p><strong><em>Customization wizard</em></strong> with unlimited colors and TOP 50 google web fonts. It helps you to customize menu without any code editing.</p>	
+			<p><strong>Unlimited number of levels</strong>. To see the example hover over the "About / Our Team / Markus Fisher" section.</p>
+			<p><strong>Fully responsive</strong> and looks great on any device: phone, pad, laptop, desktop. Resize your browser window to see it in action.</p>
+			<p><strong>249 vector icons</strong>. It means that Mega Menu is retina ready and looks perfect on any zoom. You can find all available icons <a href="http://fortawesome.github.com/Font-Awesome/#icons-web-app" target="_blank">here</a>.</p>
+			<p><strong>Tested and works in all <a href="http://www.sitepoint.com/browser-trends-march-2013/" target="_blank">modern browsers</a> and platforms</strong>: Mac OS (sifari, chrome, firefox, opera), Windows OS (sifari, chrome, firefox, opera, IE8, IE9, IE10), iPhone, iPad, Android.</p>
+			<p><strong>Optimized for mobile devices</strong>. First click shows dropdown, second click perform link functionality. Try to use menu on iPhone or iPad to see it in action.</p>
+			<p><strong>Can be pined</strong> to the top of screen and stays there while page scrolling (just add "pcss3mm-fixed" class to the menu container).</p>
+			<p>Well designed <strong>search, contacts, login and registration forms</strong>, witch are created with help of <a href="http://voky.com.ua/showcase/pcss3fs/">Pure CSS3 Forms Set</a>.</p>		
+			<p><strong>Flexible and responsive grid system</strong> for nested elements. Looking for example? Simply scroll down this page.</p>
+			<div class="separator"></div>
+			
+			
+			
+			<!-- collapsable mega menu -->
+			<ul id="pcss3mm" class="pcss3mm pcss3mm-collapsable">		
+				<!-- home -->
+				<li>
+					<a href="#"><i class="icon-home"></i>Home</a>
+				</li>
+				<!--/ home -->
+				
+				<!-- opener (requiered) -->
+				<li class="opener">
+					<a href="#"><i class="icon-reorder"></i>Menu</a>
+				</li>
+				<!--/ opener -->
+				
+				<!-- about -->
+				<li class="dropdown">
+					<a href="#" class="active"><i class="icon-star"></i>About</a><b></b>
+					<div class="grid-container3">
+						<ul>
+							<li class="dropdown">
+								<a href="#" class="active"><i class="icon-bullhorn"></i>News</a>
+								<div class="grid-container3">
+									<ul>
+										<li><a href="#"><i class="icon-ok"></i>Company</a></li>
+										<li><a href="#"><i class="icon-ok"></i>Products</a></li>
+										<li><a href="#"><i class="icon-ok"></i>Specials</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#"><i class="icon-globe"></i>Mission</a></li>
+							<li class="dropdown">
+								<a href="#"><i class="icon-group"></i><b></b>Our Team</a>
+								<div class="grid-container3">
+									<ul>
+										<li class="dropdown">
+											<a href="#">Markus Fisher</a>
+											<div class="grid-container3">
+												<ul>
+													<li><a href="#">About</a></li>
+													<li><a href="#">Skills</a></li>
+													<li><a href="#">Contacts</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="dropdown">
+											<a href="#">Leyla Sparks</a>
+											<div class="grid-container3">
+												<ul>
+													<li><a href="#">About</a></li>
+													<li><a href="#">Skills</a></li>
+													<li><a href="#">Contacts</a></li>
+												</ul>
+											</div>
+										</li>
+										<li><a href="#">Gleb Ismailov</a></li>
+										<li><a href="#">Viktoria Gibbers</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#"><i class="icon-trophy"></i>Rewards</a></a></li>
+							<li><a href="#"><i class="icon-certificate"></i>Certificates</a></a></li>
+						</ul>
+					</div>
+				</li>
+				<!--/ about -->
+				
+				<!-- portfolio -->
+				<li class="dropdown">
+					<a href="#"><i class="icon-briefcase"></i>Portfolio</a><b></b>
+					<div class="grid-container3">
+						<ul>
+							<li><a href="#"><i class="icon-lemon"></i>Logos</a></li>
+							<li><a href="#"><i class="icon-globe"></i>Websites</a></li>
+							<li><a href="#"><i class="icon-th-large"></i>Branding</a></li>
+							<li><a href="#"><i class="icon-picture"></i>Illustrations</a></li>
+						</ul>
+					</div>
+				</li>
+				<!--/ portfolio -->
+				
+				<!-- contacts -->
+				<li>
+					<a href="#"><i class="icon-phone"></i>Contacts</a><b></b>
+				</li>
+				<!--/ contacts -->
+				
+				<!-- share -->
+				<li class="right dropdown">
+					<a href="#"><i class="icon-bullhorn"></i>Share</a><b></b>
+					<div class="grid-container3">
+						<ul>
+							<li><a href="#"><i class="icon-twitter"></i>Twitter</a></li>
+							<li><a href="#"><i class="icon-facebook-sign"></i>Facebook</a></li>
+							<li><a href="#"><i class="icon-pinterest"></i>Pinterest</a></li>
+							<li><a href="#"><i class="icon-envelope-alt"></i>Email</a></a></li>
+						</ul>
+					</div>
+				</li>
+				<!--/ share -->
+			</ul>
+			<!-- collapsable mega menu -->
+			<h2>Collapsable mobile version</h2>
+			<p>On mobile devices this version of menu turns into single line item and helps you to save a lot of screen space. Try to resize your browser window to see how it works.</p>
+			<div class="separator"></div>
+			
+			
+			
+			<!-- mega menu with forms -->
+			<ul class="pcss3mm">
+				<!-- home -->
+				<li>
+					<a href="#"><i class="icon-home"></i>Home</a>
+				</li>
+				<!--/ home -->
+				
+				<!-- login -->
+				<li class="right dropdown">
+					<a href="#"><i class="icon-user"></i>Login</a>
+					<b></b>
+					<div class="grid-container5">
+						<form action="#">
+							<input type="text" placeholder="Enter your email">
+							<input type="password" placeholder="Enter your password">
+							<button type="submit">Submit</button>
+							<a href="#">Forgot password?</a>
+						</form>
+					</div>
+				</li>
+ 				<!--/ login -->
+				
+				<!-- registration -->
+				<li class="right dropdown">
+					<a href="#"><i class="icon-key"></i>Registration</a>
+					<b></b>
+					<div class="grid-container5">
+						<form action="#">
+							<input type="text" placeholder="Enter your email">
+							<input type="password" placeholder="Enter your password">
+							<input type="password" placeholder="Confirm your password">
+							<button type="submit">Submit</button>
+						</form>
+					</div>
+				</li>
+ 				<!--/ registration -->
+				
+				<!-- contacts -->
+				<li class="right dropdown">
+					<a href="#"><i class="icon-envelope"></i>Drop me a line</a><b></b>
+					<div class="grid-container6">
+						<form action="#">
+							<input type="text" placeholder="Enter your name">
+							<input type="text" placeholder="Enter your email">
+							<textarea cols="1" rows="1" placeholder="Enter your message"></textarea>
+							<button type="submit">Submit</button>
+						</form>
+					</div>
+				</li>
+				<!--/ contacts -->
+				
+ 				<!-- search -->
+				<li class="right dropdown">
+					<a href="#"><i class="icon-search"></i>Search</a>
+					<b></b>
+					<div class="grid-container5">
+						<form action="#">
+							<input type="text" placeholder="Enter keywords and press enter">
+						</form>
+					</div>
+ 				</li>
+ 				<!--/ search -->
+			</ul>
+			<!--/ mega menu with forms -->			
+			<h2>Search, contacts, login and registration forms</h2>
+			<p>Forms are created with help of <strong>last week's most popular codecanyon item</strong> in "css / forms" category <a href="http://bit.ly/YS481n">Pure CSS3 Forms Set</a>.</p>
+			<div class="separator"></div>
+			
+			
+			<!-- mega menu with grid system -->
+			<ul class="pcss3mm">
+				<li class="alpha dropdown">
+					<a href="#">Six</a>
+					<b></b>
+					<div class="grid-container12">
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="#">Five</a>
+					<b></b>
+					<div class="grid-container10">
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="#">Four</a>
+					<b></b>
+					<div class="grid-container8">
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="#">Three</a>
+					<b></b>
+					<div class="grid-container6">
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="#">Two</a>
+					<b></b>
+					<div class="grid-container4">
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a href="#">One</a>
+					<b></b>
+					<div class="grid-container2">
+						<ul>
+							<li><a href="#">First element</a></li>
+							<li><a href="#">Second element</a></li>
+							<li><a href="#">Third element</a></li>
+						</ul>
+					</div>
+				</li>
+				
+				<li class="dropdown right">
+					<a href="#">Combination</a>
+					<b></b>
+					<div class="grid-container12">
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column5">
+							<ul>
+								<li><a href="#">Extra large first element with large amount of text</a></li>
+								<li><a href="#">Extra large second element with large amount of text</a></li>
+								<li><a href="#">Extra large third element with large amount of text</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column2">
+							<ul>
+								<li><a href="#">First element</a></li>
+								<li><a href="#">Second element</a></li>
+								<li><a href="#">Third element</a></li>
+							</ul>
+						</div>
+						<div class="grid-column grid-column3">
+							<ul>
+								<li><a href="#">First element with some text</a></li>
+								<li><a href="#">Second element with some text</a></li>
+								<li><a href="#">Third element with some text</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<!--/ mega menu with grid system -->
+			<h2>Grid system</h2>			
+			<p>Mega Menu grid system supports up to 6 columns and designed for cases when you have large amount of nested elements and want to display them horisontaly. Columns are responsive and support all devices (from mobile to desktop).</p>
+			<div class="separator"></div>		
+			
+			
+			<!-- mega menu -->
+			<ul id="pcss3mm" class="pcss3mm">
+				<!-- home -->
+				<li>
+					<a href="#"><i class="icon-home"></i>Home</a>
+				</li>
+				<!--/ home -->
+				
+				<!-- about -->
+				<li class="dropdown">
+					<a href="#" class="active"><i class="icon-star"></i>About</a><b></b>
+					<div class="grid-container3">
+						<ul>
+							<li class="dropdown">
+								<a href="#" class="active"><i class="icon-bullhorn"></i>News</a>
+								<div class="grid-container3">
+									<ul>
+										<li><a href="#"><i class="icon-ok"></i>Company</a></li>
+										<li><a href="#"><i class="icon-ok"></i>Products</a></li>
+										<li><a href="#"><i class="icon-ok"></i>Specials</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#"><i class="icon-globe"></i>Mission</a></li>
+							<li class="dropdown">
+								<a href="#"><i class="icon-group"></i><b></b>Our Team</a>
+								<div class="grid-container3">
+									<ul>
+										<li class="dropdown">
+											<a href="#">Markus Fisher</a>
+											<div class="grid-container3">
+												<ul>
+													<li><a href="#">About</a></li>
+													<li><a href="#">Skills</a></li>
+													<li><a href="#">Contacts</a></li>
+												</ul>
+											</div>
+										</li>
+										<li class="dropdown">
+											<a href="#">Leyla Sparks</a>
+											<div class="grid-container3">
+												<ul>
+													<li><a href="#">About</a></li>
+													<li><a href="#">Skills</a></li>
+													<li><a href="#">Contacts</a></li>
+												</ul>
+											</div>
+										</li>
+										<li><a href="#">Gleb Ismailov</a></li>
+										<li><a href="#">Viktoria Gibbers</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="#"><i class="icon-trophy"></i>Rewards</a></a></li>
+							<li><a href="#"><i class="icon-certificate"></i>Certificates</a></a></li>
+						</ul>
+					</div>
+				</li>
+				<!--/ about -->
+				
+				<!-- portfolio -->
+				<li class="dropdown">
+					<a href="#"><i class="icon-briefcase"></i>Portfolio</a><b></b>
+					<div class="grid-container3">
+						<ul>
+							<li><a href="#"><i class="icon-lemon"></i>Logos</a></li>
+							<li><a href="#"><i class="icon-globe"></i>Websites</a></li>
+							<li><a href="#"><i class="icon-th-large"></i>Branding</a></li>
+							<li><a href="#"><i class="icon-picture"></i>Illustrations</a></li>
+						</ul>
+					</div>
+				</li>
+				<!--/ portfolio -->
+				
+				<!-- contacts -->
+				<li>
+					<a href="#"><i class="icon-phone"></i>Contacts</a><b></b>
+				</li>
+				<!--/ contacts -->
+				
+				<!-- share -->
+				<li class="right dropdown">
+					<a href="#"><i class="icon-bullhorn"></i>Share</a><b></b>
+					<div class="grid-container3">
+						<ul>
+							<li><a href="#"><i class="icon-twitter"></i>Twitter</a></li>
+							<li><a href="#"><i class="icon-facebook-sign"></i>Facebook</a></li>
+							<li><a href="#"><i class="icon-pinterest"></i>Pinterest</a></li>
+							<li><a href="#"><i class="icon-envelope-alt"></i>Email</a></a></li>
+						</ul>
+					</div>
+				</li>
+				<!--/ share -->
+			</ul>
+			<!-- mega menu -->
+			<h2><em>Customization wizard</em></h2>
+			<p>Wizard allows you to change and save colors, font and font size <strong>without any code editing</strong>. So it easily integrates to any design concept. Try to set different parameters and watch how changes Mega Menu.</p>
+			<!-- customization wizard -->
+			<form action="#" id="wizard" class="wizard">				
+				<label for="font-color">Text color</label>
+				<input type="text" name="font-color" value="a6a6a6" maxlength="6" id="font-color">
+				<div class="color">
+					<span class="active" style="background:#a6a6a6"></span>
+					<div>
+						<span data-color="a64242" style="background:#a64242"></span>
+						<span data-color="a67442" style="background:#a67442"></span>
+						<span data-color="a6a642" style="background:#a6a642"></span>
+						<span data-color="74a642" style="background:#74a642"></span>							
+						<span data-color="42a642" style="background:#42a642"></span>
+						<span data-color="42a674" style="background:#42a674"></span>							
+						<span data-color="42a6a6" style="background:#42a6a6"></span>
+						<span data-color="4274a6" style="background:#4274a6"></span>							
+						<span data-color="4242a6" style="background:#4242a6"></span>						
+						<span data-color="7442a6" style="background:#7442a6"></span>
+						<span data-color="a642a6" style="background:#a642a6"></span>
+						<span data-color="a64274" style="background:#a64274"></span>						
+						<span data-color="ffffff" style="background:#ffffff"></span>
+						<span data-color="d9d9d9" style="background:#cccccc"></span>
+						<span data-color="b3b3b3" style="background:#999999"></span>
+						<span data-color="808080" style="background:#666666"></span>
+						<span data-color="4d4d4d" style="background:#333333"></span>
+						<span data-color="000000" style="background:#000000"></span>
+					</div>
+				</div>
+				
+				<label for="font-color">Hover color</label>
+				<input type="text" name="font-hover-color" value="2b82d9" maxlength="6" id="font-hover-color">
+				<div class="color">
+					<span class="active" style="background:#2b82d9"></span>	
+					<div>							
+						<span data-color="d92b2b" style="background:#d92b2b"></span>							
+						<span data-color="d9822b" style="background:#d9822b"></span>							
+						<span data-color="d9d92b" style="background:#d9d92b"></span>							
+						<span data-color="82d92b" style="background:#82d92b"></span>													
+						<span data-color="2bd92b" style="background:#2bd92b"></span>							
+						<span data-color="2bd982" style="background:#2bd982"></span>							
+						<span data-color="2bd9d9" style="background:#2bd9d9"></span>							
+						<span data-color="2b82d9" style="background:#2b82d9"></span>														
+						<span data-color="2b2bd9" style="background:#2b2bd9"></span>											
+						<span data-color="822bd9" style="background:#822bd9"></span>
+						<span data-color="d92bd9" style="background:#d92bd9"></span>
+						<span data-color="d92b82" style="background:#d92b82"></span>						
+						<span data-color="ffffff" style="background:#ffffff"></span>
+						<span data-color="d9d9d9" style="background:#cccccc"></span>
+						<span data-color="b3b3b3" style="background:#999999"></span>
+						<span data-color="808080" style="background:#666666"></span>
+						<span data-color="4d4d4d" style="background:#333333"></span>
+						<span data-color="000000" style="background:#000000"></span>
+					</div>
+				</div>
+				
+				<label for="back-color">Back color</label>
+				<input type="text" name="back-color" value="ffffff" maxlength="6" id="back-color">
+				<div class="color">
+					<span class="active" style="background:#ffffff"></span>
+					<div>
+						<span data-color="ffffff" style="background:#ffffff"></span>
+						<span data-color="f2f2f2" style="background:#f2f2f2"></span>
+						<span data-color="e5e5e5" style="background:#e5e5e5"></span>					
+						<span data-color="d9d9d9" style="background:#d9d9d9"></span>
+						<span data-color="cccccc" style="background:#cccccc"></span>
+						<span data-color="bfbfbf" style="background:#bfbfbf"></span>
+						
+						<span data-color="b3b3b3" style="background:#b3b3b3"></span>
+						<span data-color="a6a6a6" style="background:#a6a6a6"></span>
+						<span data-color="999999" style="background:#999999"></span>						
+						<span data-color="666666" style="background:#666666"></span>
+						<span data-color="595959" style="background:#595959"></span>
+						<span data-color="4d4d4d" style="background:#4d4d4d"></span>
+						
+						<span data-color="404040" style="background:#404040"></span>
+						<span data-color="333333" style="background:#333333"></span>
+						<span data-color="262626" style="background:#262626"></span>
+						<span data-color="1a1a1a" style="background:#1a1a1a"></span>
+						<span data-color="0d0d0d" style="background:#0d0d0d"></span>
+						<span data-color="000000" style="background:#000000"></span>
+					</div>
+				</div>
+				
+				<label for="back-color">Hover back</label>
+				<input type="text" name="back-hover-color" value="f2f2f2" maxlength="6" id="back-hover-color">
+				<div class="color">
+					<span class="active" style="background:#f2f2f2"></span>
+					<div>
+						<span data-color="ffffff" style="background:#ffffff"></span>
+						<span data-color="f2f2f2" style="background:#f2f2f2"></span>
+						<span data-color="e5e5e5" style="background:#e5e5e5"></span>					
+						<span data-color="d9d9d9" style="background:#d9d9d9"></span>
+						<span data-color="cccccc" style="background:#cccccc"></span>
+						<span data-color="bfbfbf" style="background:#bfbfbf"></span>
+						
+						<span data-color="b3b3b3" style="background:#b3b3b3"></span>
+						<span data-color="a6a6a6" style="background:#a6a6a6"></span>
+						<span data-color="999999" style="background:#999999"></span>						
+						<span data-color="666666" style="background:#666666"></span>
+						<span data-color="595959" style="background:#595959"></span>
+						<span data-color="4d4d4d" style="background:#4d4d4d"></span>
+						
+						<span data-color="404040" style="background:#404040"></span>
+						<span data-color="333333" style="background:#333333"></span>
+						<span data-color="262626" style="background:#262626"></span>
+						<span data-color="1a1a1a" style="background:#1a1a1a"></span>
+						<span data-color="0d0d0d" style="background:#0d0d0d"></span>
+						<span data-color="000000" style="background:#000000"></span>
+					</div>
+				</div>
+				
+				<label for="lines-color">Lines color</label>
+				<input type="text" name="lines-color" value="d9d9d9" maxlength="6" id="lines-color">
+				<div class="color">
+					<span class="active" style="background:#d9d9d9"></span>
+					<div>
+						<span data-color="ffffff" style="background:#ffffff"></span>
+						<span data-color="f2f2f2" style="background:#f2f2f2"></span>
+						<span data-color="e5e5e5" style="background:#e5e5e5"></span>					
+						<span data-color="d9d9d9" style="background:#d9d9d9"></span>
+						<span data-color="cccccc" style="background:#cccccc"></span>
+						<span data-color="bfbfbf" style="background:#bfbfbf"></span>
+						
+						<span data-color="b3b3b3" style="background:#b3b3b3"></span>
+						<span data-color="a6a6a6" style="background:#a6a6a6"></span>
+						<span data-color="999999" style="background:#999999"></span>						
+						<span data-color="666666" style="background:#666666"></span>
+						<span data-color="595959" style="background:#595959"></span>
+						<span data-color="4d4d4d" style="background:#4d4d4d"></span>
+						
+						<span data-color="404040" style="background:#404040"></span>
+						<span data-color="333333" style="background:#333333"></span>
+						<span data-color="262626" style="background:#262626"></span>
+						<span data-color="1a1a1a" style="background:#1a1a1a"></span>
+						<span data-color="0d0d0d" style="background:#0d0d0d"></span>
+						<span data-color="000000" style="background:#000000"></span>
+					</div>
+				</div>
+				
+				<label for="font-family">Font family</label>
+				<select name="font-family" id="font-family">
+					<option value="Open+Sans" selected>Open Sans</option>
+					<option value="Oswald">Oswald</option>
+					<option value="Droid+Sans">Droid Sans</option>
+					<option value="Open+Sans+Condensed">Open Sans Condensed</option>
+					<option value="Lato">Lato</option>
+					<option value="PT+Sans">PT Sans</option>
+					<option value="PT+Sans+Narrow">PT Sans Narrow</option>
+					<option value="Yanone+Kaffeesatz">Yanone Kaffeesatz</option>
+					<option value="Droid+Serif">Droid Serif</option>
+					<option value="Ubuntu">Ubuntu</option>
+					
+					<option value="Arvo">Arvo</option>
+					<option value="Roboto">Roboto</option>
+					<option value="Nunito">Nunito</option>
+					<option value="Lobster">Lobster</option>
+					<option value="Source+Sans+Pro">Source Sans Pro</option>
+					<option value="Lora">Lora</option>
+					<option value="Exo">Exo</option>
+					<option value="Francois+One">Francois One</option>
+					<option value="Rokkitt">Rokkitt</option>
+					<option value="Raleway">Raleway</option>
+					
+					<option value="Merriweather">Merriweather</option>
+					<option value="Arimo">Arimo</option>
+					<option value="Anton">Anton</option>
+					<option value="Fredoka+One">Fredoka One</option>
+					<option value="Dosis">Dosis</option>
+					<option value="Cabin">Cabin</option>
+					<option value="Play">Play</option>
+					<option value="PT+Serif">PT Serif</option>
+					<option value="Ubuntu+Condensed">Ubuntu Condensed</option>
+					<option value="Changa+One">Changa One</option>
+					
+					<option value="Cuprum">Cuprum</option>
+					<option value="Crafty+Girls">Crafty Girls</option>
+					<option value="Abel">Abel</option>
+					<option value="Shadows+Into+Light">Shadows Into Light</option>
+					<option value="Bitter">Bitter</option>
+					<option value="Happy+Monkey">Happy Monkey</option>
+					<option value="Cantarell">Cantarell</option>
+					<option value="Dancing+Script">Dancing Script</option>
+					<option value="Comfortaa">Comfortaa</option>
+					<option value="Cantata+One">Cantata One</option>
+					
+					<option value="Montserrat">Montserrat</option>
+					<option value="Signika">Signika</option>
+					<option value="Philosopher">Philosopher</option>
+					<option value="Questrial">Questrial</option>
+					<option value="Pacifico">Pacifico</option>
+					<option value="Unkempt">Unkempt</option>
+					<option value="Chewy">Chewy</option>
+					<option value="Oxygen">Oxygen</option>
+					<option value="Asap">Asap</option>
+					<option value="Orienta">Orienta</option>
+				</select>
+				
+				
+				<label for="font-size">Font size</label>
+				<select name="font-size" id="font-size">
+					<option value="11">11px</option>
+					<option value="12">12px</option>
+					<option value="13" selected>13px</option>
+					<option value="14">14px</option>
+					<option value="15">15px</option>
+					<option value="16">16px</option>
+				</select>
+				
+				
+				<label for="line-height">Line height</label>
+				<select name="line-height" id="line-height">
+					<option value="40">40px</option>
+					<option value="42">42px</option>
+					<option value="44">44px</option>
+					<option value="46">46px</option>
+					<option value="48">48px</option>
+					<option value="50">50px</option>
+					<option value="52" selected>52px</option>
+					<option value="54">54px</option>
+					<option value="56">56px</option>
+					<option value="58">58px</option>
+					<option value="60">60px</option>
+					<option value="62">62px</option>
+					<option value="64">64px</option>
+					<option value="66">66px</option>
+					<option value="68">68px</option>
+				</select>
+			</form>
+			<p><strong>To save your customization</strong>, you need to add this code to head section of your website:</p>
+			<pre id="link">&lt;link rel="stylesheet" href="http://fonts.googleapis.com/css?family=<span>Open+Sans</span>"&gt;</pre>
+			<p>Than copy css code below and insert it at the end of file "pcss3mm.css". <strong>And that's all</strong>, you can use customized Mega Menu.</p>
+			<pre id="code">/*----------------------------------------------------------------------------*/
+/*                               CUSTOMIZATION                                */
+/*----------------------------------------------------------------------------*/
+
+.pcss3mm,
+.pcss3mm input,
+.pcss3mm textarea,
+.pcss3mm button {
+	font-family: '<span class="font-family">Open Sans</span>', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.pcss3mm {
+	background: #<span class="back-color">ffffff</span>;
+}
+.pcss3mm li {
+	border-color: #<span class="lines-color">d9d9d9</span>;
+	background: #<span class="back-color">ffffff</span>;
+	font-size: <span class="font-size">13</span>px;
+	line-height: <span class="line-height">52</span>px;
+}
+.pcss3mm a {
+	color: #<span class="font-color">a6a6a6</span>;
+}
+.pcss3mm a:hover {
+	background: #<span class="back-hover-color">f2f2f2</span>;
+	color: #<span class="font-hover-color">2b82d9</span>;
+}
+.pcss3mm a.active {
+	color: #<span class="font-hover-color">2b82d9</span>;
+}
+.pcss3mm .dropdown > div {
+	background: #<span class="back-color">ffffff</span>;
+}
+.pcss3mm .dropdown > a:after {
+	border-top-color: #<span class="font-color">a6a6a6</span>;
+}
+.pcss3mm .dropdown > a.active:after {
+	border-top-color: #<span class="font-hover-color">2b82d9</span>;
+}
+.pcss3mm .dropdown > b {
+	background: #<span class="back-color">ffffff</span>;
+}
+.pcss3mm .dropdown:hover > a {
+	color: #<span class="font-hover-color">2b82d9</span>;
+}
+.pcss3mm .dropdown:hover > a:after {
+	border-top-color: #<span class="font-hover-color">2b82d9</span>;
+}
+.pcss3mm ul li {
+	background: #<span class="back-color">ffffff</span>;
+	line-height: <span class="line-height3">17</span>px;
+}
+.pcss3mm ul a {
+	padding-top: <span class="line-height3">17</span>px;
+	padding-bottom: <span class="line-height3">17</span>px;
+}
+.pcss3mm .grid-column {
+	border-color: #<span class="lines-color">d9d9d9</span>;
+}</pre>
+			<script src="../../../ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+			<script type="text/javascript">
+				$(function()
+				{
+					$('body').append('<style>');
+					
+					$('#wizard .color span').on('click', function()
+					{
+						$(this).parent().parent().prev().val($(this).data('color')).trigger('change');
+					});
+					
+					$('#wizard #font-color').on('change', function()
+					{
+						$(this).next().find('.active').css('background', '#' + $(this).val());
+						$('#code .font-color').text($(this).val());
+						$('style').text($('#code').text());
+					});
+					
+					$('#wizard #font-hover-color').on('change', function()
+					{
+						$(this).next().find('.active').css('background', '#' + $(this).val());
+						$('#code .font-hover-color').text($(this).val());
+						$('style').text($('#code').text());
+					});
+					
+					$('#wizard #back-color').on('change', function()
+					{
+						$(this).next().find('.active').css('background', '#' + $(this).val());
+						$('#code .back-color').text($(this).val());
+						$('style').text($('#code').text());
+					});
+					
+					$('#wizard #back-hover-color').on('change', function()
+					{
+						$(this).next().find('.active').css('background', '#' + $(this).val());
+						$('#code .back-hover-color').text($(this).val());
+						$('style').text($('#code').text());
+					});
+					
+					$('#wizard #lines-color').on('change', function()
+					{
+						$(this).next().find('.active').css('background', '#' + $(this).val());
+						$('#code .lines-color').text($(this).val());
+						$('style').text($('#code').text());
+					});
+					
+					$('#wizard #font-family').on('change', function()
+					{
+						option = $(this).find(':selected');
+						$('head').append('<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=' + option.val() + '">');
+						$('#link span').text(option.val());
+						$('#code .font-family').text(option.text());
+						$('style').text($('#code').text());
+					});
+					
+					$('#wizard #font-size').on('change', function()
+					{
+						option = $(this).find(':selected');
+						$('#code .font-size').text(option.val());
+						$('style').text($('#code').text());
+					});
+					
+					$('#wizard #line-height').on('change', function()
+					{
+						option = $(this).find(':selected');
+						$('#code .line-height').text(option.val());
+						$('#code .line-height3').text(Math.round(option.val()/3));
+						$('style').text($('#code').text());
+					});
+				});
+			</script>
+			<!--/ customization wizard -->
+			
+			<div class="separator"></div>
+			<h1><br>Thanks for your time!</h1>
+			<h2 style="text-align:center">You can buy Mega Menu on <a href="http://codecanyon.net/item/pure-css3-mega-menu/4199647?ref=voky">Codecanyon</a></h2>
+			<div class="separator"></div>
+		</div>
+	</body>
+
+<!-- Mirrored from voky.com.ua/demo/pcss3mm/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Aug 2021 13:18:53 GMT -->
+</html>
